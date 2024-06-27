@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs 
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNlYW5zaWUiLCJpZCI6IjY2N2JmNDY1ODI2ZTMwZTk4YmZmMTQzMiIsImlhdCI6MTcxOTQwNDY5Nn0.owljWZHNhb6WQZouPYNQpZjNDKZYBSMMToIFf78MDR4
+
+{
+"title": "This is my 1st post", 
+"author": "Mani Marigole",
+"url": "https://blogging.com",
+"likes": 8,
+"userId": "667bf452826e30e98bff1430"
+}
